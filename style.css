@@ -1,0 +1,232 @@
+:root{
+    --primary-color: #fffceb;
+    --secondayr-color: #b8e6e7;
+    --text-color: #000000;
+    --link-color: #4f05fc;
+    --background-color: #FFFFFF;
+    --button-hover-color:#c504ff;
+    --font-body:"Chocolate Classical Sans", serif;
+    --font-titulo: "Rakkas", serif;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+    justify-content: space;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+}
+.cabecalho{
+    padding: 5px;
+    background-color: rgba(120, 228, 255, 0.822);
+    border-radius: 10px;
+    font-size: 2vw;
+}
+.mudar{
+    color: red;
+    text-decoration: line-through;
+    font-weight: bold;
+    font-size: larger;
+}
+.cabecalho p{
+    color: #c94e4e;
+    text-decoration: line-through;
+}
+body{
+    background-image: url('img/library-background.jpg');
+    font-family: var(--font-body);
+}
+.design-conteudo{
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 1px;
+}
+.cartao1{
+    color: red;
+    padding: 5px;
+    background: linear-gradient(to bottom, rgb(0, 255, 255), rgba(88, 169, 235, 0.575));
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    max-width: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+    cursor: pointer;
+}
+.cartao2{
+    color: red;
+    padding: 5px;
+    background: linear-gradient(to bottom, rgb(0, 255, 255), rgba(88, 169, 235, 0.568));
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    max-width: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+    cursor: pointer;
+}
+.cartao3{
+    color: red;
+    padding: 5px;
+    background: linear-gradient(to bottom, rgb(1, 255, 242), rgba(88, 169, 235, 0.61));
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    max-width: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+    cursor: pointer;
+}
+.cartao4{
+    color: red;
+    padding: 5px;
+    background: linear-gradient(to bottom, rgb(0, 247, 255), rgba(88, 169, 235, 0.603));
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    max-width: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+    cursor: pointer;
+}
+.cartao5{
+    color: red;
+    padding: 5px;
+    background: linear-gradient(to bottom, rgb(0, 255, 255), rgba(88, 169, 235, 0.548));
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    max-width: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+    cursor: pointer;
+}
+.cartao6{
+    color: red;
+    padding: 5px;
+    background: linear-gradient(to bottom, rgb(0, 255, 234), rgba(88, 169, 235, 0.555));
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    max-width: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+    cursor: pointer:
+}
+.cartao7{
+    color: red;
+    padding: 5px;
+    background: linear-gradient(to bottom, rgb(2, 225, 255), rgba(88, 169, 235, 0.582));
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    max-width: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+    cursor: pointer;
+}
+.cartao8{
+    color: red;
+    padding: 5px;
+    background: linear-gradient(to bottom, rgb(3, 247, 255), rgba(125, 96, 192, 0.568));
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    max-width: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+    cursor: pointer:
+}
+.cartao9{
+    color: red;
+    padding: 5px;
+    background: linear-gradient(to bottom, rgb(1, 255, 255), rgba(88, 169, 235, 0.596));
+    border-radius: 5px;
+    border-color: #000000;
+    border-style: solid;
+    border-width: 2px;
+    margin-top: 20px;
+    max-width: 300px;
+    transform-style: preserve-3d;
+    transition: transform 0.8s;
+    position: relative;
+    cursor: pointer:
+}
+.cartao.flipped .cartao2,
+.cartao.flipped .cartao1,
+.cartao.flipped .cartao3,
+.cartao.flipped .cartao4,
+.cartao.flipped .cartao5,
+.cartao.flipped .cartao6,
+.cartao.flipped .cartao7,
+.cartao.flipped .cartao8,
+.Cartão.flipped .Cartão9{
+    transform: rotateY(180deg);
+}
+.card-front, .card-back {
+  backface-visibility: hidden;
+  text-align: left;
+  font-size: 2vw;
+}
+.card-back {
+  transform: rotateY(180deg);
+  text-decoration: underline;
+  justify-content: flex-start;
+  overflow: hidden;
+  word-wrap: break-word;
+  line-height: 20px;
+  font-size: 15px;
+}
+.card-front{
+    word-wrap: break-word;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 15px;
+}
+footer{
+    padding: 5px;
+    background-color: #000000;
+    border-radius: 5px;
+    position: fixed;
+    margin-top: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 10px;
+}
+.texto-rodape{
+    color: #FFFFFF;
+}
+.mark a{
+    color: aqua;
+}
+.mark a:hover{
+    color:deepskyblue;
+}
