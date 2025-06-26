@@ -5,8 +5,8 @@
     --link-color: #4f05fc;
     --background-color: #FFFFFF;
     --button-hover-color:#c504ff;
-    --font-body:"Chocolate Classical Sans", serif;
-    --font-titulo: "Rakkas", serif;
+    --font-body:"chocolate classical sans", serif;
+    --font-titulo: "rakkas", serif;
 }
 #container{
     display: grid;
@@ -24,7 +24,7 @@
     font-size: 2vw;
 }
 .mudar{
-    color: red;
+    color: blue;
     text-decoration: line-through;
     font-weight: bold;
     font-size: larger;
@@ -45,7 +45,7 @@ body{
     border-width: 1px;
 }
 .cartao1{
-    color: red;
+    color: yellow;
     padding: 5px;
     background: linear-gradient(to bottom, rgb(0, 255, 255), rgba(88, 169, 235, 0.575));
     border-radius: 5px;
@@ -60,7 +60,7 @@ body{
     cursor: pointer;
 }
 .cartao2{
-    color: red;
+    color: purple;
     padding: 5px;
     background: linear-gradient(to bottom, rgb(0, 255, 255), rgba(88, 169, 235, 0.568));
     border-radius: 5px;
@@ -75,7 +75,7 @@ body{
     cursor: pointer;
 }
 .cartao3{
-    color: red;
+    color: water green;
     padding: 5px;
     background: linear-gradient(to bottom, rgb(1, 255, 242), rgba(88, 169, 235, 0.61));
     border-radius: 5px;
@@ -90,7 +90,7 @@ body{
     cursor: pointer;
 }
 .cartao4{
-    color: red;
+    color: baby pink;
     padding: 5px;
     background: linear-gradient(to bottom, rgb(0, 247, 255), rgba(88, 169, 235, 0.603));
     border-radius: 5px;
@@ -105,7 +105,7 @@ body{
     cursor: pointer;
 }
 .cartao5{
-    color: red;
+    color: wine;
     padding: 5px;
     background: linear-gradient(to bottom, rgb(0, 255, 255), rgba(88, 169, 235, 0.548));
     border-radius: 5px;
@@ -120,7 +120,7 @@ body{
     cursor: pointer;
 }
 .cartao6{
-    color: red;
+    color: orange;
     padding: 5px;
     background: linear-gradient(to bottom, rgb(0, 255, 234), rgba(88, 169, 235, 0.555));
     border-radius: 5px;
@@ -135,7 +135,7 @@ body{
     cursor: pointer:
 }
 .cartao7{
-    color: red;
+    color: beige;
     padding: 5px;
     background: linear-gradient(to bottom, rgb(2, 225, 255), rgba(88, 169, 235, 0.582));
     border-radius: 5px;
@@ -150,7 +150,7 @@ body{
     cursor: pointer;
 }
 .cartao8{
-    color: red;
+    color: brown;
     padding: 5px;
     background: linear-gradient(to bottom, rgb(3, 247, 255), rgba(125, 96, 192, 0.568));
     border-radius: 5px;
@@ -165,7 +165,7 @@ body{
     cursor: pointer:
 }
 .cartao9{
-    color: red;
+    color: navy blue;
     padding: 5px;
     background: linear-gradient(to bottom, rgb(1, 255, 255), rgba(88, 169, 235, 0.596));
     border-radius: 5px;
@@ -187,7 +187,7 @@ body{
 .cartao.flipped .cartao6,
 .cartao.flipped .cartao7,
 .cartao.flipped .cartao8,
-.Cartão.flipped .Cartão9{
+.cartao.flipped .cartao9{
     transform: rotateY(180deg);
 }
 .card-front, .card-back {
